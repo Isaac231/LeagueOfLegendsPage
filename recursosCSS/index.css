@@ -1,3 +1,19 @@
 body{
     background-color: rgb(18, 18, 18);
+    color: white;
+    font-family: Quicksand;
+    margin: 0px;
+}
+nav {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    background-color: rgb(16, 26, 38);
+    min-height: 70px;
+}
+#links {
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    text-align: center;
+    font-size: 28px;
 }
